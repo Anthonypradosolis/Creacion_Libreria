@@ -16,7 +16,7 @@ public class Operaciones_Basicas {
      *
      * @param a tipo de operacion
      * @param num primer numero para operar
-     * @param num2 segundo numero para operar
+     * @param num2 segundo numero para operar, en el caso RAIZ es el indice
      * @return resultado de las operaciones
      */
         public static Float operaciones(int a,float num,float num2){
