@@ -5,8 +5,9 @@ public class Operaciones_Basicas {
         public static final int RESTA=2;
         public static final int MULTIPLICACION=3;
         public static final int DIVISION=4;
-        public static final int RAIZ_CUADRADA=5;
-        public static final int RAIZ_CUBICA=6;
+/*        public static final int RAIZ_CUADRADA=5;
+        public static final int RAIZ_CUBICA=6; **/
+        public static final int RAIZ=5;
         public Operaciones_Basicas(float num, float num2) {
             this.num = num;
             this.num2= num2;
@@ -33,12 +34,12 @@ public class Operaciones_Basicas {
                 case DIVISION:
                     resultado=num/num2;
                     break;
-                case RAIZ_CUADRADA:
-                    resultado=(float) Math.sqrt(num);
-                    break;
-                case RAIZ_CUBICA:
-                    resultado=(float) Math.cbrt(num);
-                    break;
+//                case RAIZ_CUADRADA:
+//                    resultado=(float) Math.sqrt(num);
+//                    break;
+//                case RAIZ_CUBICA:
+//                    resultado=(float) Math.cbrt(num);
+//                    break;
                 default:
                     System.out.println("Operacion no Valida");
             }
