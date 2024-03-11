@@ -40,6 +40,9 @@ public class Operaciones_Basicas {
 //                case RAIZ_CUBICA:
 //                    resultado=(float) Math.cbrt(num);
 //                    break;
+                case RAIZ:
+                    resultado = (float) Math.pow(num, 1.0 / num2);
+                    break;
                 default:
                     System.out.println("Operacion no Valida");
             }
